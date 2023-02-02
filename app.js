@@ -1,5 +1,5 @@
 const board = document.querySelector('#board')
-const SQUARES_NUMBER = 500
+const SQUARES_NUMBER = 400
 const colors =['#FFEC64', '#B55B0B', '#FFC614', ' #686A2B','#903700', '#FFE6AA', '#32421A', '#381905']
 for (let i = 0; i<SQUARES_NUMBER; i++) {
   const square = document.createElement('div')
